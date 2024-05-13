@@ -6,7 +6,7 @@ const router = express.Router();
 
 
 router.get('/', (req: Request, res: Response, next: NextFunction) => {
-res.json({message: "Hello from the Admin Route "})
+res.json("Hello from the Admin Route ")
 })
 
 export { router as AdminRoute}

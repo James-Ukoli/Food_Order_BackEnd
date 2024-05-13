@@ -12,5 +12,6 @@ import { AdminRoute, VandorRoute } from "./routes";
  })
 
  app.listen(8000, () => {
+    console.clear()
     console.log("App is listening to port 8000")
  })
