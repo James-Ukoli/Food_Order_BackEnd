@@ -4,10 +4,12 @@ import { CreateVandor, GetVandorbyId, GetVandors } from '../controllers/AdminCon
 
 const router = express.Router();
 
+//Create vandors
 router.post('/vandor', CreateVandor)
 
+// LIST Vandors
 router.get('/vandors', GetVandors)
-
+//GET Vandors
 router.get('/vandors/:id', GetVandorbyId)
 
 
